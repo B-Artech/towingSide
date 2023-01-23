@@ -11,20 +11,24 @@ document.addEventListener('DOMContentLoaded', function () {
 		burger.classList.toggle('hide')
 		xMark.classList.toggle('hide')
 	})
-	function addShadow() {
-		if (window.scrollY >= 30) {
+
+	window.addEventListener('scroll', () => {
+        if (window.scrollY >= 30) {
+            nav.classList.add('shadow-bg');
+        } else {
+            nav.classList.remove('shadow-bg');
+        }
+    });
+
+	btn.addEventListener('click', () => {
+		if(window.scrollY >= 0){
 			nav.classList.add('shadow-bg')
 		} else {
 			nav.classList.remove('shadow-bg')
 		}
-	}
-	function btnShadow() {
-		if (window.scrollY >= 0) {
-			nav.classList.add('shadow-bg')
-		} else {
-			nav.classList.remove('shadow-bg')
-		}
-	}
+		
+	})
+
 	allNavItem.forEach(item =>
 		item.addEventListener('click', () => {
 			navList.classList.remove('show')
@@ -32,16 +36,14 @@ document.addEventListener('DOMContentLoaded', function () {
 			xMark.classList.add('hide')
 		})
 	)
-	const collapse = () => {
-		navList.classList.remove('show')
+
+	logo.addEventListener('click', () => {
+        navList.classList.remove('show');
 		burger.classList.remove('hide')
 		xMark.classList.add('hide')
-	}
-	logo.addEventListener('click', collapse)
-	window.addEventListener('scroll', addShadow)
-	btn.addEventListener('click', btnShadow)
-})
+    });
 
+})
 
 
 

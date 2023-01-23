@@ -2,7 +2,7 @@
   "name": "laweta1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/B-Artech/towingSide.git"
   },
   "keywords": [],
-  "author": "B-Artech",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/B-Artech/towingSide/issues"
@@ -20,7 +20,9 @@
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
+    "autoprefixer": "^10.4.13",
     "browser-sync": "^2.27.11",
+    "cssnano": "^5.1.14",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-babel": "^8.0.0",
@@ -29,12 +31,9 @@
     "gulp-kit": "^0.3.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "postcss": "^8.4.21",
     "sass": "^1.57.1"
-  },
-  "dependencies": {
-    "autoprefixer": "^10.4.13",
-    "gulp-sourcemaps": "^3.0.0"
   }
 }
