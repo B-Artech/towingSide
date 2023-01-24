@@ -129,7 +129,6 @@ header {
 	}
 
 	h1 span {
-		// font-weight: 700;
 		color: $red-color;
 	}
 
@@ -161,10 +160,10 @@ header {
 
 .hero-img {
 	position: relative;
-	background-image: url('../img/dog-small_640.jpg');
-	height: 100vh;
-	background-size: cover;
+	background-image: url('../img/mercedes-amg-gts-g30cafd667_640.jpg');
+	width: 100%;
 	background-position: center;
+	background-size: 100% 100%;
 	background-attachment: fixed;
 	z-index: 0;
 
@@ -310,6 +309,13 @@ header {
 	}
 }
 
+.price {
+
+	h3 {
+		font-size: 18px;
+	}
+}
+
 .contact {
 	position: relative;
 	background-image: url('../img/bridge-small_640.jpg');
@@ -400,7 +406,7 @@ header {
 			align-items: center;
 		}
 		.hero-img {
-			height: 80vh;
+			height: 90vh;
 		}
 
 
@@ -431,7 +437,7 @@ header {
 		width: 300px;
 	}
 	.hero-img {
-		background-image: url('../img/dog-g663de8b3b_1280.jpg');
+		background-image: url('../img/mercedes-benz-amg-gts-g0f7f696f3_1280.jpg');
 	}
 
 	.contact {
@@ -469,6 +475,13 @@ header {
 				font-size: 16px;
 				padding: 0 5px;
 			}
+		}
+	}
+
+	.price {
+
+		h3 {
+			font-size: 20px;
 		}
 	}
 }
