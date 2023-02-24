@@ -12,4 +12,4 @@ web side for towing business
 * Bootstrap
 
 # You can visit 
-* [Laveta Wroclaw](https://lawetawroclaw.pl/)
+* [Laweta Wroclaw](https://lawetawroclaw.pl/)
