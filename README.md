@@ -2,7 +2,7 @@
 # https://b-artech.github.io/Resume/
 
 ## Description
-Auto towing website, to help out my friend with his business
+Auto towing website, to help out my friend to promote his business
 
 ## Technology Used 
 
